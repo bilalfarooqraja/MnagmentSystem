@@ -102,7 +102,6 @@ public class Main {
                                 "Press 2 if From dep SE\n" +
                                 "Press 3 if From dep EE\n" +
                                 "Press 4 if From dep BBA\n");
-
                         Scanner inputd = new Scanner(System.in);
                         String student_dep = inputd.nextLine();
                         s.addStudent(conn,student_name,student_dep);
@@ -110,7 +109,6 @@ public class Main {
                 }
             }else{
                 System.out.println("Wrong UserName Password");
-
             }
         }
         if (num==2){
