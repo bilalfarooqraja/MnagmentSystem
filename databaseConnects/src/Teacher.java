@@ -89,8 +89,6 @@ public class Teacher {
         }
         return null;
     }
-
-
     public void addTeacher(Connection conn, String name,String dep_id, String pass_word) {
         Statement statement;
         ResultSet rs = null;

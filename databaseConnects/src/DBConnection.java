@@ -1,6 +1,5 @@
 import java.sql.Connection;
 import java.sql.DriverManager;
-
 public class DBConnection {
     public Connection connectToDb(String dbname, String user, String pass) {
         Connection conn = null;
